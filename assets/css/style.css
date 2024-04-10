@@ -1,0 +1,434 @@
+ header img{
+    width:107px;
+    height: 78px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.trd-nav a img{
+    width: 25px;
+    height: 25px;
+    /* display: flex;
+    align-items: center; */
+} 
+/* cardoc section starts */
+ .cardoc-section{
+    padding-top: 20px;
+    
+}
+.cardoc-section-img{
+    background-image: url('image/rectangle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    height: 500px;
+    max-width: 100%;
+} 
+.cardoc-section .custom-btn{
+    background-color:#FF3811;
+    color: white;
+    width: 170px;
+    height: 56px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    font-weight: 600;
+    margin-right: 16px;
+}
+.cardoc-h1{
+    color: white;
+    padding-top: 100px;
+    max-width: 300px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.cardoc-p{
+    color: white;
+    margin-bottom: 20px;
+}
+.cardoc-section .custom-btn2{
+    padding: 13px 19px;
+    width: 170px;
+    height: 56px;
+    font-weight: 600;
+}
+/* .slide-sign{
+    position: relative;
+}
+.slide-sign img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 520px;
+    right: -360px;
+}
+.slide-sign .im1{
+    position: absolute;
+    top: 520px;
+    right: -300px;
+} */
+/* about us section starts */
+.about-us{
+    padding: 7rem 0;
+}
+.imgs-grid{
+    display: grid;
+    grid-template-columns: repeat(27,1fr);
+    position: relative;
+}
+.grid{
+    position: relative;
+}
+.grid img{
+    object-fit: cover;
+    max-width: 100%;
+}
+.grid-1{
+    grid-column: 1 / span 18;
+    grid-row: 1 / span 27;
+}
+.grid-2{
+    grid-column:  14/span 16;
+    grid-row: 11 / span 27;
+}
+.about-h6{
+    color: #FF3811;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.about-h2{
+    max-width: 375px;
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 28px;
+    color: black;
+}
+.about-p1{
+    color: #737373;
+    line-height: 1.5;
+    max-width: 490px;
+}
+.about-p2{
+    color: #737373;
+    line-height: 1.5;
+    max-width: 490px;
+}
+.about-btn{
+    background-color: #FF3811;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+}
+/* about us section ends */
+/* service section starts */
+.service-section{
+    padding: 4rem 0 7rem 0;
+}
+.service-heading h5{
+    color: #FF3811;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.service-heading h1{
+    color: black;
+    font-weight: bold;
+}
+.service-heading p{
+    text-align: center;
+    display: block;
+    color: #737373;
+}
+.service-cards{
+    
+}
+.service-cards img{
+    max-width: 100%;
+}
+.service-cards .service-card-title{
+    color: #444444;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.service-cards .service-card-pricing{
+    color: #FF3811;
+    font-weight: 600;
+    font-size: 18px;
+}
+.service-cards .service-card-icon-holder{
+    display: flex;
+    justify-content:space-between;
+}
+.custom-service-icon{
+    width: 17px;
+    color: #FF3811;
+    font-weight:400;
+}
+.service-card-single{
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.custom-service-last-btn{
+    border: 1px solid #FF3811;
+    padding: 12px 17px;
+    font-weight: bold;
+    color: #FF3811;
+    margin-top: 30px;
+}
+.custom-btn-div{
+    transition: 0.5s all ease;
+}
+.custom-service-last-btn:hover{
+    background-color: #FF3811;
+    color: white;
+}
+
+/* service section ends */
+
+/* address section starts */
+.address-section{
+    padding:130px 0 130px 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.address-section:hover{
+    transform: translateY(-5px) scale(1.02); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    background-color: #f9f9f9;
+}
+.address-background{
+    background-color: black;
+    border-radius: 4px;
+    padding: 50px;
+    box-shadow: 0px 5px 9px 1px rgb(75, 75, 75);
+}
+
+.address-time h6,h2{
+    color: white;
+}
+/* address section ends */
+
+/* popular section starts */
+.popular-section{
+    padding: 4rem 0 7rem 0;
+}
+.popular-heading h5{
+    color: #FF3811;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.popular-heading h1{
+    color: black;
+    font-weight: bold;
+}
+.popular-heading p{
+    text-align: center;
+    display: block;
+    color: #737373;
+}
+.popular-cards img{
+    max-width: 100%;
+    background-color:#F3F3F3;
+    padding: 80px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.popular-cards .popular-card-title{
+    color: #444444;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.popular-cards .popular-card-pricing{
+    color: #FF3811;
+    font-weight: 600;
+    font-size: 18px;
+}
+.popular-cards .popular-card-icon-holder{
+    display: flex;
+    justify-content:space-between;
+}
+.popular-cards .popular-card-icon-holder .popular-card-pricing{
+    text-align: center;
+}
+
+.popular-card-single{
+    border: 1px solid #e5e5e5;
+    padding: 50px;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-align: center;
+}
+.popular-card-single .istar{
+    color: yellow;
+    
+}
+.custom-popular-last-btn{
+    border: 1px solid #FF3811;
+    padding: 12px 17px;
+    font-weight: bold;
+    color: #FF3811;
+    margin-top: 30px;
+}
+.custom-btn-div{
+    transition: 0.5s all ease;
+}
+.custom-popular-last-btn:hover{
+    background-color: #FF3811;
+    color: white;
+}
+
+
+/* popular section ends */
+
+/* team section starts */
+.team-section{
+    padding: 130px 0 130px 0;
+    position: relative;
+}
+.team-heading h5{
+    color: #FF3811;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.team-heading h1{
+    color: black;
+    font-weight: bold;
+}
+.team-heading p{
+    text-align: center;
+    display: block;
+    color: #737373;
+}
+
+.team-cards img{
+    max-width: 100%;
+    position: relative;
+}
+
+#signs{
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    color:white;
+    width:100%;
+    display: none;
+}
+#signs span{
+    cursor: pointer;
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    background-color: rgb(255, 56, 17,0.1);
+    border-radius: 50%;
+    transition: .3s all ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signs span:hover{
+    background-color: #FF3811;
+    color: white;
+}
+#signs .prev{
+    left: 10px;
+}
+#signs .next{
+    right: 230px;
+}
+@media (min-width:576px){
+    #signs{
+        display: block;
+    }
+}
+.team-cards .service-card-title{
+    color: #444444;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.team-card-single{
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.team-card-single .team-card-title{
+    text-align: center;
+    color:#5e5d5d;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+.team-card-single .teamh5{
+    font-size: 18px;
+    color: rgb(109, 106, 106);
+    text-align: center;
+}
+.social-media-team{
+    text-align: center;
+    margin-top: 15px;
+}
+.social-media-team .custom-team-i{
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+/* team section ends */
+
+/* wcs section starts */
+.wcs-section{
+    padding: 130px 0 130px 0;
+}
+.wcs-section .card{
+    max-width: 170px;
+    height: 156px;
+}
+.wcs-heading h5{
+    color: #FF3811;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.wcs-heading h1{
+    color: black;
+    font-weight: bold;
+}
+.wcs-heading p{
+    text-align: center;
+    display: block;
+    color: #737373;
+}
+
+/* wcs section ends */
+
+/* testimonial section starts */
+.testimonial-section{
+    padding: 130px 0 130px 0;
+}
+/* testimonial section ends */
+
+/* footer section starts */
+
+.footer-section{
+    
+}
+.footer-media-team{
+    display: flex;
+    align-items: center;
+}
+.footer-media-team span{
+    background-color: rgb(115, 115, 115,0.3);
+    padding: 6px;
+    display: inline;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+  
+
+
